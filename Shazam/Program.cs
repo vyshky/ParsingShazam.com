@@ -43,7 +43,7 @@ namespace Shazam
             Console.ResetColor();
 
             // ######  3  ######
-            //Выводо данных найденной группы
+            //Вывод данных найденной группы
             var request = new GetRequest($"https://www.shazam.com/services/amapi/v1/catalog/RU/artists/{ArtistId}?views=top-songs");
             request.Run();
 
